@@ -1,0 +1,13 @@
+class Rope
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Invoking main in Rope");
+		
+		Rope rope=new Rope();
+		Rope rope1=new Rope();
+		Rope rope2=new Rope();
+		Rope rope3=new Rope();
+		Rope rope4=new Rope();
+	}
+}

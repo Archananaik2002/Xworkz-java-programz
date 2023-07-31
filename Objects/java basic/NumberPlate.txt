@@ -1,0 +1,13 @@
+class NumberPlate
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Invoking main in NumberPlate");
+		
+		NumberPlate numberPlate=new NumberPlate();
+		NumberPlate numberPlate1=new NumberPlate();
+		NumberPlate numberPlate2=new NumberPlate();
+		NumberPlate numberPlate3=new NumberPlate();
+		NumberPlate numberPlate4=new NumberPlate();
+	}
+}
