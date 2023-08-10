@@ -5,7 +5,6 @@ import com.xworkz.encapsulation.app.Amazon;
 public class AmazonRunner {
 	public static void main(String[] args) {
 		
-		
 		Amazon amazon=new Amazon();
 		amazon.setAverageRating(4.4);
 		amazon.setCategory("Clothes");
