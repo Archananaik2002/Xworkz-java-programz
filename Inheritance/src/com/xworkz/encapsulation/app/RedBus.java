@@ -2,19 +2,19 @@ package com.xworkz.encapsulation.app;
 
 public class RedBus {
  
-    protected String passengerName;
-    protected String sourceCity;
-    protected String destinationCity;
-    protected String journeyDate;
-    protected String departureTime;
-    protected String arrivalTime;
-    protected String busOperator;
-    protected String busType;
-    protected int seatNumber;
-    protected String ticketNumber;
-    protected double fareAmount;
-    protected boolean isSleeper;
-    protected boolean isAC;
+    private String passengerName;
+    private String sourceCity;
+    private String destinationCity;
+    private String journeyDate;
+    private String departureTime;
+    private String arrivalTime;
+    private String busOperator;
+    private String busType;
+    private int seatNumber;
+    private String ticketNumber;
+    private double fareAmount;
+    private boolean isSleeper;
+    private boolean isAC;
 
     
     public String getPassengerName() {

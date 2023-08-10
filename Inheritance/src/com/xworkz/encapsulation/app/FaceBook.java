@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class FaceBook {
  
-    protected String username;
-    protected String fullName;
-    protected int friendsCount;
-    protected int followersCount;
-    protected int postsCount;
-    protected boolean isPrivate;
-    protected String bio;
-    protected String location;
-    protected String email;
-    protected String phoneNumber;
-    protected String profilePictureURL;
-    protected boolean isVerified;
-    protected boolean isTimelineEnabled;
-    protected boolean isTaggingAllowed;
+    private String username;
+    private String fullName;
+    private int friendsCount;
+    private int followersCount;
+    private int postsCount;
+    private boolean isPrivate;
+    private String bio;
+    private String location;
+    private String email;
+    private String phoneNumber;
+    private String profilePictureURL;
+    private boolean isVerified;
+    private boolean isTimelineEnabled;
+    private boolean isTaggingAllowed;
 
   
     public String getUsername() {

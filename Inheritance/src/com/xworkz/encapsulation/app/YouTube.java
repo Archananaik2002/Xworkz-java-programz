@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class YouTube {
    
-    protected String channelName;
-    protected String ownerName;
-    protected int subscribersCount;
-    protected int videosCount;
-    protected boolean isVerified;
-    protected String about;
-    protected String country;
-    protected String joinDate;
-    protected boolean isMonetized;
-    protected String website;
-    protected boolean isLiveStreamingEnabled;
-    protected boolean isCommentsEnabled;
-    protected boolean isNotificationsEnabled;
-    protected boolean isSubtitlesEnabled;
+    private String channelName;
+    private String ownerName;
+    private int subscribersCount;
+    private int videosCount;
+    private boolean isVerified;
+    private String about;
+    private String country;
+    private String joinDate;
+    private boolean isMonetized;
+    private String website;
+    private boolean isLiveStreamingEnabled;
+    private boolean isCommentsEnabled;
+    private boolean isNotificationsEnabled;
+    private boolean isSubtitlesEnabled;
 
    
     

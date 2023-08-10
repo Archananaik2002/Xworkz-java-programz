@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Irctc {
  
-    protected String passengerName;
-    protected String trainName;
-    protected String sourceStation;
-    protected String destinationStation;
-    protected String journeyDate;
-    protected String departureTime;
-    protected String arrivalTime;
-    protected int seatNumber;
-    protected String coachType;
-    protected String bookingStatus;
-    protected String ticketType;
-    protected boolean isSleeper;
-    protected boolean isAC;
-    protected boolean isTatkalBooking;
+    private String passengerName;
+    private String trainName;
+    private String sourceStation;
+    private String destinationStation;
+    private String journeyDate;
+    private String departureTime;
+    private String arrivalTime;
+    private int seatNumber;
+    private String coachType;
+    private String bookingStatus;
+    private String ticketType;
+    private boolean isSleeper;
+    private boolean isAC;
+    private boolean isTatkalBooking;
 
    
     public String getPassengerName() {

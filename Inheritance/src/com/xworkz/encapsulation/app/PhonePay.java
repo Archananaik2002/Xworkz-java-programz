@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class PhonePay {
 
-	protected String phoneNumber;
-	protected String email;
-	protected String fullName;
-	protected double accountBalance;
-	protected boolean isUPIEnabled;
-	protected String linkedBank;
-	protected boolean isKYCVerified;
-	protected String address;
-	protected String city;
-	protected String state;
-	protected String pinCode;
-	protected boolean isNotificationsEnabled;
-	protected boolean isAutoRechargeEnabled;
-	protected boolean isSecureLoginEnabled;
+	private String phoneNumber;
+	private String email;
+	private String fullName;
+	private double accountBalance;
+	private boolean isUPIEnabled;
+	private String linkedBank;
+	private boolean isKYCVerified;
+	private String address;
+	private String city;
+	private String state;
+	private String pinCode;
+	private boolean isNotificationsEnabled;
+	private boolean isAutoRechargeEnabled;
+	private boolean isSecureLoginEnabled;
 
 	// Getter and Setter methods
 	public String getPhoneNumber() {

@@ -1,20 +1,20 @@
 package com.xworkz.encapsulation.app;
 
 public class WhatsApp {
-	protected float version;
-	protected String iconColor;
-	protected boolean secured;
-	protected int noOfUsers;
-	protected String founder;
-	protected int since;
-	protected String organization;
-	protected String headQuarters;
-	protected boolean chineseApp;
-	protected float size;
-	protected String operatingSystem;
-	protected String writtenIn;
-	protected String owner;
-	protected String mostUsingCountry;
+	private float version;
+	private String iconColor;
+	private boolean secured;
+	private int noOfUsers;
+	private String founder;
+	private int since;
+	private String organization;
+	private String headQuarters;
+	private boolean chineseApp;
+	private float size;
+	private String operatingSystem;
+	private String writtenIn;
+	private String owner;
+	private String mostUsingCountry;
 
 	// getter
 	public float getVersion() {

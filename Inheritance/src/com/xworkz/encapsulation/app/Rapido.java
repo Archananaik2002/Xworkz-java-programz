@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Rapido {
    
-    protected String riderName;
-    protected String captainName;
-    protected String sourceLocation;
-    protected String destinationLocation;
-    protected String rideDate;
-    protected String startTime;
-    protected String endTime;
-    protected String bikeModel;
-    protected String licensePlate;
-    protected double rideDistance;
-    protected double rideFare;
-    protected boolean isPrimeRide;
-    protected boolean isSharedRide;
-    protected boolean isRiderRated;
+    private String riderName;
+    private String captainName;
+    private String sourceLocation;
+    private String destinationLocation;
+    private String rideDate;
+    private String startTime;
+    private String endTime;
+    private String bikeModel;
+    private String licensePlate;
+    private double rideDistance;
+    private double rideFare;
+    private boolean isPrimeRide;
+    private boolean isSharedRide;
+    private boolean isRiderRated;
 
   
    

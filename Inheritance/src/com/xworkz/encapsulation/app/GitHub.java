@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class GitHub {
     
-    protected String username;
-    protected String repositoryName;
-    protected int starsCount;
-    protected int forksCount;
-    protected boolean isPrivate;
-    protected String description;
-    protected String programmingLanguage;
-    protected String ownerName;
-    protected String ownerEmail;
-    protected String website;
-    protected boolean hasIssuesEnabled;
-    protected boolean hasProjectsEnabled;
-    protected boolean hasWikiEnabled;
-    protected boolean isArchived;
+    private String username;
+    private String repositoryName;
+    private int starsCount;
+    private int forksCount;
+    private boolean isPrivate;
+    private String description;
+    private String programmingLanguage;
+    private String ownerName;
+    private String ownerEmail;
+    private String website;
+    private boolean hasIssuesEnabled;
+    private boolean hasProjectsEnabled;
+    private boolean hasWikiEnabled;
+    private boolean isArchived;
 
     
     

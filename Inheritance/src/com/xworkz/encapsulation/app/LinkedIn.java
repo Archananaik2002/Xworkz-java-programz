@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class LinkedIn {
 
-    protected String fullName;
-    protected String headline;
-    protected String currentJob;
-    protected String company;
-    protected String location;
-    protected int connectionsCount;
-    protected String summary;
-    protected String industry;
-    protected String email;
-    protected long phoneNumber;
-    protected String profilePictureURL;
-    protected boolean isPremiumMember;
-    protected boolean isJobSeeker;
-    protected boolean isVisibilityLimited;
+    private String fullName;
+    private String headline;
+    private String currentJob;
+    private String company;
+    private String location;
+    private int connectionsCount;
+    private String summary;
+    private String industry;
+    private String email;
+    private long phoneNumber;
+    private String profilePictureURL;
+    private boolean isPremiumMember;
+    private boolean isJobSeeker;
+    private boolean isVisibilityLimited;
 
    
 

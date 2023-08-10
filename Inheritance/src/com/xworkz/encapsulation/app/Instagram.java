@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Instagram {
     
-    protected String username;
-    protected String fullName;
-    protected int followersCount;
-    protected int followingCount;
-    protected int postsCount;
-    protected boolean isPublic;
-    protected String bio;
-    protected String website;
-    protected String email;
-    protected long phoneNumber;
-    protected int noOfBlocked;
-    protected boolean isVerified;
-    protected boolean isBusinessAccount;
-    protected boolean isSponsored;
+    private String username;
+    private String fullName;
+    private int followersCount;
+    private int followingCount;
+    private int postsCount;
+    private boolean isPublic;
+    private String bio;
+    private String website;
+    private String email;
+    private long phoneNumber;
+    private int noOfBlocked;
+    private boolean isVerified;
+    private boolean isBusinessAccount;
+    private boolean isSponsored;
 
    
     

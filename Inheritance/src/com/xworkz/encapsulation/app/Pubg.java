@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Pubg {
     
-    protected String playerName;
-    protected String playerID;
-    protected int level;
-    protected int experience;
-    protected int matchesPlayed;
-    protected int kills;
-    protected int wins;
-    protected double kdRatio;
-    protected String clanName;
-    protected String serverRegion;
-    protected boolean isBattlePassActive;
-    protected int battlePassLevel;
-    protected boolean isMicEnabled;
-    protected boolean isSquadPlayEnabled;
+    private String playerName;
+    private String playerID;
+    private int level;
+    private int experience;
+    private int matchesPlayed;
+    private int kills;
+    private int wins;
+    private double kdRatio;
+    private String clanName;
+    private String serverRegion;
+    private boolean isBattlePassActive;
+    private int battlePassLevel;
+    private boolean isMicEnabled;
+    private boolean isSquadPlayEnabled;
 
    
     public String getPlayerName() {

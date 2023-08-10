@@ -2,19 +2,19 @@ package com.xworkz.encapsulation.app;
 
 public class NammaMetro {
     
-    protected String passengerName;
-    protected String metroOperator;
-    protected String sourceStation;
-    protected String destinationStation;
-    protected String travelDate;
-    protected String entryTime;
-    protected String exitTime;
-    protected String coachNumber;
-    protected int seatNumber;
-    protected double fareAmount;
-    protected boolean isPeakHour;
-    protected boolean isRoundTrip;
-    protected boolean isPassengerRated;
+    private String passengerName;
+    private String metroOperator;
+    private String sourceStation;
+    private String destinationStation;
+    private String travelDate;
+    private String entryTime;
+    private String exitTime;
+    private String coachNumber;
+    private int seatNumber;
+    private double fareAmount;
+    private boolean isPeakHour;
+    private boolean isRoundTrip;
+    private boolean isPassengerRated;
 
   
     public String getPassengerName() {

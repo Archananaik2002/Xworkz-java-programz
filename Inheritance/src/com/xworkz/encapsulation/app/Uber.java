@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Uber {
     
-    protected String passengerName;
-    protected String driverName;
-    protected String sourceLocation;
-    protected String destinationLocation;
-    protected String rideDate;
-    protected String pickupTime;
-    protected String dropOffTime;
-    protected String carModel;
-    protected String licensePlate;
-    protected double rideDistance;
-    protected double rideFare;
-    protected boolean isUberX;
-    protected boolean isRideShared;
-    protected boolean isDriverRated;
+    private String passengerName;
+    private String driverName;
+    private String sourceLocation;
+    private String destinationLocation;
+    private String rideDate;
+    private String pickupTime;
+    private String dropOffTime;
+    private String carModel;
+    private String licensePlate;
+    private double rideDistance;
+    private double rideFare;
+    private boolean isUberX;
+    private boolean isRideShared;
+    private boolean isDriverRated;
 
    
 

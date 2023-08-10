@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Snapchat {
     
-    protected String username;
-    protected int snapScore;
-    protected int streakCount;
-    protected boolean isPremium;
-    protected boolean isVerified;
-    protected String email;
-    protected String phoneNumber;
-    protected String bitmojiAvatarURL;
-    protected boolean isGhostMode;
-    protected String location;
-    protected boolean isSnapMapVisible;
-    protected boolean isNotificationsOn;
-    protected boolean isFiltersEnabled;
-    protected boolean isLensesEnabled;
+    private String username;
+    private int snapScore;
+    private int streakCount;
+    private boolean isPremium;
+    private boolean isVerified;
+    private String email;
+    private String phoneNumber;
+    private String bitmojiAvatarURL;
+    private boolean isGhostMode;
+    private String location;
+    private boolean isSnapMapVisible;
+    private boolean isNotificationsOn;
+    private boolean isFiltersEnabled;
+    private boolean isLensesEnabled;
 
    
     public String getUsername() {

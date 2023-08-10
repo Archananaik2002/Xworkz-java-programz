@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class NetFlix {
   
-    protected String accountName;
-    protected String subscriptionPlan;
-    protected boolean isPremium;
-    protected boolean isFamilyPlan;
-    protected int numberOfDevices;
-    protected boolean isOfflinePlaybackSupported;
-    protected int numberOfProfiles;
-    protected String profileNames;
-    protected boolean isKidProfileEnabled;
-    protected String paymentMethod;
-    protected String billingAddress;
-    protected boolean isAutoRenewalEnabled;
-    protected String renewalDate;
-    protected boolean isEmailNotificationEnabled;
+    private String accountName;
+    private String subscriptionPlan;
+    private boolean isPremium;
+    private boolean isFamilyPlan;
+    private int numberOfDevices;
+    private boolean isOfflinePlaybackSupported;
+    private int numberOfProfiles;
+    private String profileNames;
+    private boolean isKidProfileEnabled;
+    private String paymentMethod;
+    private String billingAddress;
+    private boolean isAutoRenewalEnabled;
+    private String renewalDate;
+    private boolean isEmailNotificationEnabled;
 
     public String getAccountName() {
         return accountName;

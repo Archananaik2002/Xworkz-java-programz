@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class NammaYatri {
     
-    protected String travelerName;
-    protected String driverName;
-    protected String sourceLocation;
-    protected String destinationLocation;
-    protected String travelDate;
-    protected String departureTime;
-    protected String arrivalTime;
-    protected String vehicleModel;
-    protected String licensePlate;
-    protected double travelDistance;
-    protected double travelFare;
-    protected boolean isLuxuryVehicle;
-    protected boolean isSharedRide;
-    protected boolean isTravelerRated;
+    private String travelerName;
+    private String driverName;
+    private String sourceLocation;
+    private String destinationLocation;
+    private String travelDate;
+    private String departureTime;
+    private String arrivalTime;
+    private String vehicleModel;
+    private String licensePlate;
+    private double travelDistance;
+    private double travelFare;
+    private boolean isLuxuryVehicle;
+    private boolean isSharedRide;
+    private boolean isTravelerRated;
 
     
     public String getTravelerName() {

@@ -2,20 +2,20 @@ package com.xworkz.encapsulation.app;
 
 public class Amazon {
     
-    protected String productName;
-    protected String sellerName;
-    protected double price;
-    protected int ratingsCount;
-    protected double averageRating;
-    protected boolean isPrimeEligible;
-    protected String description;
-    protected String category;
-    protected String shippingAddress;
-    protected String customerName;
-    protected String customerEmail;
-    protected String orderDate;
-    protected boolean isGiftWrapAvailable;
-    protected boolean isReturnAllowed;
+    private String productName;
+    private String sellerName;
+    private double price;
+    private int ratingsCount;
+    private double averageRating;
+    private boolean isPrimeEligible;
+    private String description;
+    private String category;
+    private String shippingAddress;
+    private String customerName;
+    private String customerEmail;
+    private String orderDate;
+    private boolean isGiftWrapAvailable;
+    private boolean isReturnAllowed;
 
  
     public String getProductName() {
