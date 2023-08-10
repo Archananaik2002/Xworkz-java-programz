@@ -2,6 +2,7 @@ package com.xworkz.encapsulation.app;
 
 public class Cred {
     // 
+
     protected String userName;
     protected String email;
     protected String cardNumber;
